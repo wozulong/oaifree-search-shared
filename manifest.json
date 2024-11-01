@@ -1,0 +1,28 @@
+{
+   "chrome_settings_overrides": {
+      "search_provider": {
+         "encoding": "UTF-8",
+         "favicon_url": "https://new.oaifree.com/images/faviconDark.ico",
+         "is_default": true,
+         "keyword": "shared.oaifree.com",
+         "name": "OAIFree search(shared)",
+         "search_url": "https://new.oaifree.com/?q={searchTerms}&hints=search&ref=ext&temporary-chat=true"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "https://*.oaifree.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Change default search engine to OAIFree search(shared).",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "19": "images/icon19.png",
+      "38": "images/icon38.png",
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 3,
+   "name": "OAIFree search(shared)",
+   "version": "1.0"
+}
