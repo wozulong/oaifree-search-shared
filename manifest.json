@@ -6,7 +6,7 @@
          "is_default": true,
          "keyword": "shared.oaifree.com",
          "name": "OAIFree search(shared)",
-         "search_url": "https://new.oaifree.com/?q={searchTerms}&hints=search&ref=ext&temporary-chat=true"
+         "search_url": "https://shared.oaifree.com/?q={searchTerms}&hints=search&ref=ext&temporary-chat=true"
       }
    },
    "content_scripts": [ {
